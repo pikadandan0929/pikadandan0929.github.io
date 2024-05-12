@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: lime; 
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+

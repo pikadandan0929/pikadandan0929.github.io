@@ -1,0 +1,64 @@
+
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="/contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Digital Chalkboards
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/week2/DC1Helloworld.html">Digital Chalkboard 1</a></li>
+                  <li><a class="dropdown-item" href="/week3/DC3HomePage.html">Digital Chalkboard 2</a></li>
+                  <li><a class="dropdown-item" href="/week4/DC4digital.html">Digital Chalkboard 3</a></li>
+                  <li><a class="dropdown-item" href="/week5/DC5main.html">Digital Chalkboard 4</a></li>
+                  <li><a class="dropdown-item" href="/week6/DC6main.html">Digital Chalkboard 5</a></li>
+                  <li><a class="dropdown-item" href="/week7/DC7main.html">Digital Chalkboard 6</a></li>
+                  <li><a class="dropdown-item" href="/week8/DC8main2.html">Digital Chalkboard 7</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technical Presentations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/week2/TP1console.html">Technical Presentation 1</a></li>
+                  <li><a class="dropdown-item" href="/week3/DC3HomePage.html">Technical Presentation 2</a></li>
+                  <li><a class="dropdown-item" href="/week4/TP4main.html">Technical Presentation 3</a></li>
+                  <li><a class="dropdown-item" href="/week5/TP5main.html">Technical Presentation 4</a></li>
+                  <li><a class="dropdown-item" href="/week6/TP6main.html">Technical Presentation 5</a></li>
+                  <li><a class="dropdown-item" href="/week7/TP7main.html">Technical Presentation 6 Part 1</a></li>
+                  <li><a class="dropdown-item" href="/week7/TP7main1.html">Technical Presentation 6 Part 2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personal Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/personal_projects/projects.html">Data Projects</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <!--End Nav Bar-->
+      <script>
+        var pathname = window.location.pathname;
+        var cleanPath = pathname.substring(pathname.lastIndexOf('/') + 1);
+        $('[href*="' + cleanPath + '"]').addClass('active');
+      </script>
