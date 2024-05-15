@@ -121,7 +121,7 @@ html, body {
   }
   
   .container-content {
-    flex: 1; /* Allows the container to expand and take up any available space */
+    flex: auto; /* Allows the container to expand and take up any available space */
     min-height: 1px; /* Ensures it takes up space even when there's no content */
   }
   
